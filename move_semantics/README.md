@@ -9,6 +9,7 @@
 
 ## Links
 - [Rule of Five](https://cpppatterns.com/patterns/rule-of-five.html)
+- [C++ Core Guidelines - GitHub](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
 - [Look at Smart Pointers - for Beginners](https://www.internalpointers.com/post/beginner-s-look-smart-pointers-modern-c)
 - [Moving Smart Pointers in and out of Functions](https://www.internalpointers.com/post/move-smart-pointers-and-out-functions-modern-c)
 - [What is std::move and when should it be used - Stack Overflow](https://stackoverflow.com/questions/3413470/what-is-stdmove-and-when-should-it-be-used)
