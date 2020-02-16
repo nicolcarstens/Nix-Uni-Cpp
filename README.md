@@ -1,2 +1,13 @@
-# Nix-Uni-Cpp
-A sandbox collection of C++/Cpp examples, tests, demos, lectures, projects, links, notes, etc.
+# Nicol's University: C++/Cpp 
+
+This repo is intended to be a collection of C++/Cpp examples, tests, demos, lectures, projects, links, notes, etc.
+
+This is a 'sandbox' space aimed at offering quick and easy access to valuable tips and ticks. Proper coding standards and uniformity will suffer since the sources are diverse and it is for reference purposes only! 
+
+I do my best to give credit where credit is due. Please feel free to reach out to me if I overlooked something or your would like to contribute. 
+
+## Where to find me? 
+
+- [Github: nicolcarstens](https://github.com/nicolcarstens)
+- [LinkedIn: Nicol Carstens](https://www.linkedin.com/in/nicolcarstens/)
+- Email: my Github username at Google's big email kingdom
