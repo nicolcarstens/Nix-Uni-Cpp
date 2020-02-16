@@ -19,12 +19,13 @@
 
 ##Related Topics?
 - Rule of Five 
-- Move Semantics
+- [Move Semantics](https://github.com/nicolcarstens/Nix-Uni-Cpp/tree/master/move_semantics)
 - Smart Pointers
-
 
 ## Links
 - [Rule of Five](https://cpppatterns.com/patterns/rule-of-five.html)
 - [Look at Smart Pointers - for Beginners](https://www.internalpointers.com/post/beginner-s-look-smart-pointers-modern-c)
 - [Moving Smart Pointers in and out of Functions](https://www.internalpointers.com/post/move-smart-pointers-and-out-functions-modern-c)
 - [How to pass a Unique Pointer to a Constructor or Function - Stack Overflow](https://stackoverflow.com/questions/8114276/how-do-i-pass-a-unique-ptr-argument-to-a-constructor-or-a-function/8114913#8114913)
+- [Rvalue references and move constructors - C++11 Wiki](https://en.wikipedia.org/wiki/C%2B%2B11#Rvalue_references_and_move_constructors)
+- [C++ Rvalue References Explained by Thomas Becker](http://thbecker.net/articles/rvalue_references/section_01.html)
