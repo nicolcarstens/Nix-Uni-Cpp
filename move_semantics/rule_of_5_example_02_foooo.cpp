@@ -1,6 +1,11 @@
 /******************************************************************************
 
 https://cpppatterns.com/patterns/rule-of-five.html
+ 
+NOTE:
+Watch out for -fno-elide-constructors ... turn off an optimization techniques
+called copy elision, which would make it harder to understand the various calls
+and the operations they entail
 
 *******************************************************************************/
 #include <stdio.h>

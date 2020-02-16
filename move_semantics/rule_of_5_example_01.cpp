@@ -9,6 +9,10 @@ Refs:   https://cpppatterns.com/patterns/rule-of-five.html
         https://www.internalpointers.com/post/beginner-s-look-smart-pointers-modern-c
         https://www.internalpointers.com/post/move-smart-pointers-and-out-functions-modern-c
 
+NOTE:   Watch out for -fno-elide-constructors ... turn off an optimization techniques 
+        called copy elision, which would make it harder to understand the various calls 
+        and the operations they entail
+
 *******************************************************************************/
 
 #include <stdlib.h>
