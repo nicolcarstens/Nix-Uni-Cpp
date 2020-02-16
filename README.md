@@ -6,6 +6,13 @@ This is a 'sandbox' space aimed at offering quick and easy access to valuable ti
 
 I do my best to give credit where credit is due. Please feel free to reach out to me if I overlooked something or your would like to contribute. 
 
+## Tools
+
+- [GDB Online - compiler and debugger tool for C, C++, Python, Java, etc](https://www.onlinegdb.com/)
+
+## Courses
+- [Udacity C++ NanoDegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
+
 ## Where to find me? 
 
 - [Github: nicolcarstens](https://github.com/nicolcarstens)
