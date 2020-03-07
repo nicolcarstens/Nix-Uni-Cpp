@@ -15,6 +15,7 @@ I do my best to give credit where credit is due. Please feel free to reach out t
 ## Tools
 
 - [GDB Online - compiler and debugger tool for C, C++, Python, Java, etc](https://www.onlinegdb.com/)
+- [Udacity Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## Courses
 - [Udacity C++ NanoDegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
