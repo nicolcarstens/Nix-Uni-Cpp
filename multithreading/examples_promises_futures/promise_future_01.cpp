@@ -1,3 +1,11 @@
+/******************************************************************
+ * 
+ *   Start of simple Promises and Futures thread examples 
+ *   run > g++ -std=c++17 -pthread promise_future_01.cpp  
+ * 
+ ******************************************************************/
+
+
 #include <iostream>
 #include <thread>
 

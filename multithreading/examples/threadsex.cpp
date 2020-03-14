@@ -31,7 +31,9 @@ int main()
     std::thread t(threadFunction);
 
     // OPTIONAL - using join() as barrier 
-    t.join();
+    // t.join();
+
+    // t.detach();
 
     // do something in main()
     std::this_thread::sleep_for(std::chrono::milliseconds(50));
