@@ -53,7 +53,11 @@ int main()
 
     // thread barrier 
     t.join();
-    // t.detach();
+
+    // t.detach(); <<== you are unlikey to have a reason to use detach rather than join!
+    //             if you do not use detach() or join(), you will get an error (for safety)
+    //             detach basicall hands your the knife/rope to kill yourself... be careful! 
+    //             For more info see Slide 6 of 8 in "Running a Single Thread" of Lesson 1 
 
     return 0; 
 }
