@@ -1,10 +1,13 @@
 /******************************************************************
  * 
- *   Start of simple Promises and Futures thread examples 
- *   run > g++ -std=c++17 -pthread promise_future_01.cpp  
+ *   Promises and Futures thread examples 01 - first the basics!
+ *   Based on Udacity Cpp NanoDegree course work, March 2020  
+ *   run > g++ -std=c++17 -pthread promise_future_01.cpp && ./a.out  
+ * 
+ *   Additional info:
+ *   -> https://thispointer.com/c11-multithreading-part-3-carefully-pass-arguments-to-threads/
  * 
  ******************************************************************/
-
 
 #include <iostream>
 #include <thread>
