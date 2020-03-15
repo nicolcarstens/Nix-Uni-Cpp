@@ -25,14 +25,55 @@
 >> git branch project_L1     // creates a new branch
 >> git checkout project_L1   // switch to the new branch
 
+>> git push ... but OOOOOPS!!
+
+   !!! fatal: The current branch project_L1 has no upstream branch.
+   !!! To push the current branch and set the remote as upstream, use...
+
+>> git push --set-upstream origin project_L1
+
+   ... or should that be ... 
+
+>> git push -u origin project_L1
+
+   ... same thing :-) 
+   ... see (https://devconnected.com/how-to-set-upstream-branch-on-git/)
+
 >> git checkout master       // switch back to the master 
+
+>> clear
+>> git log
+
+>> clear 
+>> git status
+
+>> ls -al
 ```
+**_Other good links on push and other git topics:_**
+
+* [https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
+* [https://devconnected.com/category/software-engineering/](https://devconnected.com/category/software-engineering/)
+* [https://www.git-tower.com/learn/git/commands/git-push](https://www.git-tower.com/learn/git/commands/git-push)
+* [https://www.atlassian.com/git/tutorials/saving-changes/git-stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
+
+
+
 ### git bare repository
 
-* https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init
+* [https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init)
+* [Video on Bare Repo](https://youtu.be/krR847J8yPc)
 
 ```
-git init --bare <directory>
+>> git init --bare <directory>
+```
+
+### git remotes 
+
+* [https://youtu.be/5ctkqMqG6G4](https://youtu.be/5ctkqMqG6G4)
+* [https://youtu.be/Gg4bLk8cGNo](https://youtu.be/Gg4bLk8cGNo)
+
+```
+>> git remote -v
 ```
 
 ### C++ CL compile
