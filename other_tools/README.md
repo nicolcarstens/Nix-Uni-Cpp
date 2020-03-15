@@ -21,6 +21,18 @@
 >> git commit -m "commit message" 
 
 >> git push 
+
+>> git branch project_L1     // creates a new branch
+>> git checkout project_L1   // switch to the new branch
+
+>> git checkout master       // switch back to the master 
+```
+### git bare repository
+
+* https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init
+
+```
+git init --bare <directory>
 ```
 
 ### C++ CL compile
