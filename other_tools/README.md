@@ -5,6 +5,10 @@
 
 ### git command line (CL)
 
+For DETAILED explanations see [https://explainshell.com/](https://explainshell.com/)
+
+Here with some QUICK references - git command line 101:
+
 ```
 >> git clone https://github.com/nicolcarstens/Nix-Uni-Cpp.git
 
@@ -19,6 +23,8 @@
 >> git rm -r xyz   // remove/delete directory xyz & content recursively 
 
 >> git diff --name-only --cached 
+>> git diff --name-only              // name(s) of edited file(s)
+>> git diff                          // all of the edits in files
 
 >> git commit -m "commit message" 
 
@@ -41,7 +47,10 @@
    ... same thing :-) 
    ... see (https://devconnected.com/how-to-set-upstream-branch-on-git/)
 
->> git checkout master       // switch back to the master 
+>> git branch --list                 // Show all branches, current "starred"
+>> git rev-parse --abbrev-ref HEAD   // Get current branch only
+
+>> git checkout master               // switch back to the master 
 
 >> clear
 >> git log
