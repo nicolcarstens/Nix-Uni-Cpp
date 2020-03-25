@@ -6,6 +6,8 @@
 ### git command line (CL)
 
 ```
+>> git clone https://github.com/nicolcarstens/Nix-Uni-Cpp.git
+
 >> git pull 
 
 >> git add -A      // stages ALL changes <<-- check
