@@ -20,6 +20,10 @@ I do my best to give credit where credit is due. Please feel free to reach out t
 ## Courses
 - [Udacity C++ NanoDegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
 
+## Fun Websites
+
+- [nextptr - collection of questions and answers](https://www.nextptr.com/)
+
 ## Where to find me? 
 
 - [Github: nicolcarstens](https://github.com/nicolcarstens)
