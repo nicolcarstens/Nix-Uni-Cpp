@@ -5,9 +5,10 @@
 
 ### git command line (CL)
 
-For DETAILED explanations see [https://explainshell.com/](https://explainshell.com/)
+* For DETAILED explanations see [https://explainshell.com/](https://explainshell.com/)
+* Also check out [Learn Git from w3docs](https://www.w3docs.com/learn-git/introduction4.html)
 
-Here with some QUICK references - git command line 101:
+**Here with some QUICK references - git command line 101:**
 
 ```
 >> git clone https://github.com/nicolcarstens/Nix-Uni-Cpp.git
@@ -16,8 +17,8 @@ Here with some QUICK references - git command line 101:
 
 >> git add -A      // stages ALL changes <<-- check
 >> git add *       // stages ALL changes <<-- check
->> git add .       // new files and mods, not deletions 
->> git add -u      // mods & deletions, no new files 
+>> git add .       // add all files to index => new files & mods, not deletions 
+>> git add -u      // mods & deletions, no new files [--update]
 >> git add xyx.c   // adds file xyz.c
  
 >> git rm -r xyz   // remove/delete directory xyz & content recursively 
@@ -67,7 +68,31 @@ Here with some QUICK references - git command line 101:
 * [https://www.git-tower.com/learn/git/commands/git-push](https://www.git-tower.com/learn/git/commands/git-push)
 * [https://www.atlassian.com/git/tutorials/saving-changes/git-stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
+### [more on] git branches
+* You have a repo with branches at the origin. You have cloned the master. What about branches? You need to check them out.
+* See [https://stackoverflow.com/questions/10312521/how-to-fetch-all-git-branches](https://stackoverflow.com/questions/10312521/how-to-fetch-all-git-branches)
 
+``` 
+>> git branch --list [OR just -l]    // Show all local branches, current "starred"
+>> git rev-parse --abbrev-ref HEAD   // Get current branch only
+>> git checkout master               // switch back to the master
+
+>> git branch --remote [OR just -r]  // Lists all remote branches available
+
+>> git checkout -b LocalName origin/RemoteBranchName
+>> 
+>> git branch -a                     // lists local and remote branches 
+```
+
+### git delete local branch
+
+* [https://www.educative.io/edpresso/how-to-delete-remote-branches-in-git](https://www.educative.io/edpresso/how-to-delete-remote-branches-in-git)
+
+```
+>> git branch -a                      // lists local and remote branches 
+>> git branch -l                      // lists local branches only 
+>> git branch -d BranchNameToDelete   // deletes branch 
+```
 
 ### git bare repository
 
